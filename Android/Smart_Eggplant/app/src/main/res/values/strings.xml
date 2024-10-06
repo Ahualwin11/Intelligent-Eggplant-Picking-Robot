@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">123茄子</string>
+
+    <string-array name="eggplant_greenhouse">
+        <item>长茄子大棚</item>
+        <item>短茄子大棚</item>
+        <item>圆子茄大棚</item>
+<!--        <item>黑茶基地1</item>-->
+<!--        <item>黑茶基地2</item>-->
+<!--        <item>黑茶基地3</item>-->
+    </string-array>
+    <string-array name="robot_number">
+        <item>一号机器人</item>
+        <item>二号机器人</item>
+        <item>三号机器人</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>全部</item>
+        <item>圆茄</item>
+        <item>紫茄</item>
+        <item>长茄</item>
+    </string-array>
+</resources>

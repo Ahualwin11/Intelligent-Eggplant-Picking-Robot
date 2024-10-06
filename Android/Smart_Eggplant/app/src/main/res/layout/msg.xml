@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/white"
+            android:padding="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:paddingStart="20dp"
+                android:text="常用"
+                android:textSize="18dp"
+                android:textColor="#707070"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/first_page_search_button"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/first_page_search_button"
+                android:layout_marginEnd="10dp"
+
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="">
+            </Button>
+            <Button
+                android:id="@+id/first_page_option_button"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:background="@drawable/first_page_option_button"
+                android:layout_marginEnd="10dp"
+                android:text="">
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
